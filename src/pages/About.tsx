@@ -5,7 +5,7 @@ interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full' style = {{ width: '80%', margin: '0 auto', backgroundColor: 'white' }}>
             <h1 style={{ textAlign: 'left', margin: '25px', color: '#00008B' }}>
                 <p>О нас</p>
             </h1>
