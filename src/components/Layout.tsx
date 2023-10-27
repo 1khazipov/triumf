@@ -33,7 +33,24 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         </h1>
                     </div>
 
-                    <div className="button-row" style={{ position: 'absolute', bottom: '2%', display: 'flex', justifyContent: 'space-around', width: '100%' }}>
+                    <div className='info-about' style={{ position: 'absolute', right: 50, top: 0}}>
+                        <p style={{ font:'inter', color: '#ffffff', fontSize: '0.8rem' }}>
+                            Запись по телефонам:
+                        </p>
+                        <p style={{ textAlign: 'center', font:'inter', fontSize: '1.0rem' }}>
+                            <a href="tel:+78432589759" style={{color: '#ffffff'}}>+7 (843) 258-97-59, </a>
+                            <a href="tel:+79600489759" style={{color: '#ffffff'}}>+7 960 048-97-59</a>
+                        </p>
+                        <p style={{ font:'inter', color: '#ffffff', fontSize: '0.8rem' }}>
+                            Адрес:
+                        </p>
+                        <p style={{ textAlign: 'center', font:'inter', color: '#ffffff', fontSize: '1.0rem' }}>
+                            <a href="https://yandex.ru/maps/-/CDaDiQnM" style={{color: '#ffffff'}}>г. Казань, ул. Жуковского, д. 8, офис 313</a>
+                        </p>
+                    </div>
+
+                    <div className="button-row" style={{ position: 'absolute', display: 'flex',
+                        justifyContent: 'space-around', width: '100%', bottom: 0}}>
                         <Link to="/about">
                             <button className="navigation-button">О нас</button>
                         </Link>
@@ -68,7 +85,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             <footer className='w-full' style={{ position: 'relative' }}>
                 <div className="footer-container" style={{ backgroundColor: '#002e5d', height: '200px', width: '100%', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                    <div className="footer-column">
+                    <div className="footer-column" style={{ display: 'flex', flexFlow: 'column', paddingTop: 5}}>
                         <Link to="/">
                             <EmblemFooter />
                         </Link>
