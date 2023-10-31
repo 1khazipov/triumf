@@ -20,6 +20,9 @@ export const Teachers: React.FC<TeachersProps> = () => {
 
     return (
         <div>
+            <div className="page_name">
+                Преподаватели
+            </div>
             <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination]}
