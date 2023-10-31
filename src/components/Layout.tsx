@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import EmblemHeader from './EmblemHeader';
 import EmblemFooter from './EmblemFooter';
 
+
 interface LayoutProps {
     children: ReactNode;
 }
@@ -60,7 +61,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
 
                     <div className="button-row" style={{ position: 'absolute', display: 'flex',
-                        justifyContent: 'space-around', width: '100%', bottom: 0}}>
+                        justifyContent: 'space-around', width: '100%', bottom: 10}}>
                         <Link to="/about">
                             <button className="navigation-button">О нас</button>
                         </Link>
