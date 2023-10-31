@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab, Tabs as TabsComponent, TabList, TabPanel } from "react-tabs";
-// import 'react-tabs/style/react-tabs.css';
+import "../styles/Schedule.css";
 
 
 
@@ -20,35 +20,19 @@ export const Schedule: React.FC<ScheduleProps> = ({ }) => {
             </TabList>
 
             <TabPanel key="monday">
-                <table style={{ border: "1px solid", display: 'flex', alignItems: 'center', justifyContent: 'center', flexFlow: 'column'}}>
-
+                <table>
                     <tbody>
-                        <tr >
-                            <td className="schedule__time"> 16:10–17:40 </td>
-                            <td> 11(1) / информатика</td>
-                        </tr>
+                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / информатика</td></tr>
                     </tbody>
                 </table>
             </TabPanel>
 
             <TabPanel key="tuesday">
-                <table style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    flexFlow: 'column'}}>
-
+                <table>
                     <tbody>
-                        <tr>
-                            <td className="schedule__time"> 14:30–16:00 </td>
-                            <td> 9(1) / обществознание</td>
-                        </tr>
-                        <tr>
-                            <td className="schedule__time"> 16:10–17:40 </td>
-                            <td> 11(1) / русский язык</td>
-                        </tr>
-                        <tr>
-                            <td className="schedule__time"> 16:10–17:40 </td>
-                            <td> 11(1) / обществознание</td>
-                        </tr>
-
+                        <tr><td className="schedule__time"> 14:30–16:00 </td> <td> 9(1) / обществознание</td></tr>
+                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / русский язык</td></tr>
+                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / обществознание</td></tr>
                     </tbody>
                 </table>
             </TabPanel>
