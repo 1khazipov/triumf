@@ -27,7 +27,7 @@ export const teachers = [
     },
     {
         id: 3,
-        name: "Лоповок Елена Евгеньевн",
+        name: "Лоповок Елена Евгеньевна",
         ageWork: 15,
         special: "Репетитор по математике и информатике",
         photo: teacher3,
