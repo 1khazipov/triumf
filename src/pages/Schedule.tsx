@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab, Tabs as TabsComponent, TabList, TabPanel } from "react-tabs";
-import "../styles/Schedule.css";
+import "../styles/schedule.css";
 
 
 

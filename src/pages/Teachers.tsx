@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import "../styles/Teachers.css"
+import "../styles/teachers.css"
 
 import {teachers} from "../constants/teachersList"
 

@@ -10,6 +10,7 @@ import HowToFind from './pages/HowToFind';
 import Teachers from './pages/Teachers';
 import Schedule from './pages/Schedule';
 import Students from './pages/Students';
+import StudentsByYear from "./pages/StudentsByYear";
 import './styles/App.css';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/teachers" element={<Teachers />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/students" element={<Students />} />
+          <Route path="/students/:studentYear" element={<StudentsByYear />} />
         </Routes>
       </Layout>
     </BrowserRouter>
