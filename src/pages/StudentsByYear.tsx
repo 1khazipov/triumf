@@ -44,7 +44,7 @@ export const StudentsByYear: React.FC<StudentsByYearProps> = ({ }) => {
                 <div className="swiper-button-prev"></div>
                 <div className="swiper-button-next"></div>
 
-                {studentsMap.get('2021').map((studentContent: { photo: string | undefined; name: string | undefined;
+                {studentsMap.get(studentYear).map((studentContent: { photo: string | undefined; name: string | undefined;
                     special: string; study: string}, index: React.Key | null | undefined) => (
                     <SwiperSlide key={index} style={{  flexFlow: "column"}}>
                         <div className="student_image_div">
