@@ -94,8 +94,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               {children}
             </main>
 
-            <footer className='w-full' style={{ position: 'relative' }}>
-                <div className="footer-container" style={{ backgroundColor: '#002e5d', height: '200px', backgroundSize: 'cover', backgroundPosition: 'center', flexFlow: 'row' }}>
+            <footer style={{ position: 'relative' }}>
+                <div className="footer-container" style={{ backgroundColor: '#002e5d', height: '200px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="footer-column" style={{ display: 'flex', flexFlow: 'column', paddingTop: 5}}>
                         <Link to="/">
                             <EmblemFooter />

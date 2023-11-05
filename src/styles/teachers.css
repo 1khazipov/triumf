@@ -1,22 +1,23 @@
 .react-swiper__swiper {border: 10px solid}
 
-button {
-    width: 33%;
-    height: 33%;
+.button_to_show_info_teacher {
+    /*width: 33%;*/
+    /*height: 33%;*/
     background-color: rgba(0,0,0,0);
     cursor: pointer;
     border: none;
 }
 
-img {
-    width: 300%;
-    height: 300%;
+.teacher_image {
+    width: 400px;
+    height: 400px;
 }
 
 .info_about_teacher {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
     flex-flow: column;
     text-align: justify;
     text-align-last: center;
@@ -24,7 +25,29 @@ img {
     font-family: inter, serif;
     margin: auto;
     margin-top: 20px;
-    /*margin-bottom: 50px;*/
-    width: 30%;
-    color: #002e5d
+    /*!*margin-bottom: 50px;*!*/
+    /*width: 30%;*/
+    /*color: #002e5d*/
+}
+
+.teacher_name {
+    display: table-caption;
+    font-size: 2rem;
+    font-family: "Hoefler Text", sans-serif;
+    margin-top: 6%;
+}
+
+
+.teacher_special {
+    color: gray;
+    font-size: 1.2rem;
+    font-family: inter, serif;
+    margin-top: 2%;
+    text-align-last: center;
+}
+
+.teacher_description {
+    font-family: inter, serif;
+    font-size: 1.4rem;
+    margin-top: 9%;
 }

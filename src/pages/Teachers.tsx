@@ -27,7 +27,7 @@ export const Teachers: React.FC<TeachersProps> = () => {
                 // install Swiper modules
                 modules={[Navigation, Pagination]}
                 spaceBetween={10}
-                slidesPerView={3}
+                // slidesPerView={3}
                 navigation={{ nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",}}
                 pagination={{ clickable: true }}
@@ -35,26 +35,44 @@ export const Teachers: React.FC<TeachersProps> = () => {
                 style={{ marginTop: 80}}
                 onSwiper={(swiper: typeof Swiper) => console.log(swiper)}
                 // onSlideChange={() => console.log('slide change')}
+                breakpoints={{
+                    // when window width is >= 640px
+                    640: {
+                        // width: 640,
+                        slidesPerView: 1,
+                    },
+                    // when window width is >= 768px
+                    768: {
+                        // width: 768,
+                        slidesPerView: 3,
+                    },
+                }}
             >
                 <div className="swiper-button-prev"></div>
                 <div className="swiper-button-next"></div>
 
                 {teachers.map((teacherContent, index) => (
                     <SwiperSlide key={index}>
-                        <button onClick={(e) => {
+                        <button className="button_to_show_info_teacher" onClick={(e) => {
                             setCurrentTeacher(teachers[index]);
 
                         }}>
-                            <img src={teacherContent.photo}/>
+                            <img className="teacher_image" src={teacherContent.photo}/>
                         </button>
                     </SwiperSlide>
                     ))}
             </Swiper>
 
             <div className="info_about_teacher">
-                <p> <strong>Имя:</strong> {currentTeacher.name}</p>
-                <p> <strong>Специальность:</strong> {currentTeacher.special}</p>
-                <p> <strong>Деятельность:</strong> {currentTeacher.description}</p>
+                <div className="teacher_name">
+                    {currentTeacher.name}
+                </div>
+                <div className="teacher_special">
+                    {currentTeacher.special}
+                </div>
+                <div className="teacher_description">
+                    {currentTeacher.description}
+                </div>
             </div>
         </div>
     );

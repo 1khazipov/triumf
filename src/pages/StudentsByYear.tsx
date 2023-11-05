@@ -46,7 +46,7 @@ export const StudentsByYear: React.FC<StudentsByYearProps> = ({ }) => {
 
                 {studentsMap.get(studentYear).map((studentContent: { photo: string | undefined; name: string | undefined;
                     special: string; study: string}, index: React.Key | null | undefined) => (
-                    <SwiperSlide key={index} style={{  flexFlow: "column"}}>
+                    <SwiperSlide key={index} style={{  flexFlow: "column", display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         <div className="student_image_div">
                             <img className="student_image"src={studentContent.photo}/>
                         </div>
