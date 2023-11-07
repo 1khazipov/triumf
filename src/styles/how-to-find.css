@@ -1,0 +1,50 @@
+@media screen and (min-width: 500px) {
+    .swiper_and_info {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+
+.swiper_and_info {
+    display: flex;
+    flex-direction: row;
+}
+.react-swiper__swiper {border: 10px solid}
+
+
+.info_location {
+    display: flex;
+    flex-flow: column;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.gallery_image {
+    width: 110px;
+}
+
+.swipers {
+    display: flex;
+    flex-flow: column;
+    margin-top: 40px;
+    margin-left: 20%;
+    width: 450px;
+}
+
+.title_info_location {
+    color: gray;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.desc_info_location {
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.link_location {
+    text-decoration: none;
+    color: #002e5d;
+}

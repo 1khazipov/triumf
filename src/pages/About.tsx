@@ -6,9 +6,9 @@ interface AboutProps {}
 const About: React.FC<AboutProps> = () => {
     return (
         <div className='w-full' style = {{ width: '80%', margin: '0 auto', backgroundColor: 'white' }}>
-            <h1 style={{ textAlign: 'left', margin: '25px', color: '#00008B' }}>
-                <p>О нас</p>
-            </h1>
+            <div className="page_name">
+                О нас
+            </div>
 
             <div style={{ textAlign: 'left', margin: '25px', color: 'black' }}>
                 <p>"Гильдия репетиторов ТРИУМФ" была организована в августе 2013 года как профессиональное сообщество, объединяющее высококвалифицированных преподавателей ведущих казанских университетов.</p>
