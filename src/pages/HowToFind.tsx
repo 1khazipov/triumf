@@ -25,7 +25,7 @@ export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
             </div>
 
             <div className="swiper_and_info">
-                <div className="swipers">
+                {/*<div className="swipers">*/}
                     <div className="swiper_div">
                         <Swiper
                             // install Swiper modules
@@ -88,7 +88,7 @@ export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
                     {/*        </SwiperSlide>*/}
                     {/*    </Swiper>*/}
                     {/*</div>*/}
-                </div>
+                {/*</div>*/}
 
                 <div className="info_location">
                     <div className="title_info_location">
