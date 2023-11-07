@@ -16,7 +16,7 @@ interface HowToFindProps {}
 
 export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
     return (
-        <div>
+        <div className="page_content">
             <div className="page_name">
                 Как нас найти
             </div>
@@ -40,7 +40,6 @@ export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
                         >
                             <div className="swiper-button-prev"></div>
                             <div className="swiper-button-next"></div>
-                            <div className="swiper-pagination"></div>
 
 
                             <SwiperSlide>

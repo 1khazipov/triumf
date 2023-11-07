@@ -8,20 +8,23 @@ interface ScheduleProps {}
 
 export const Schedule: React.FC<ScheduleProps> = ({ }) => {
     return (
-        <div>
+        <div >
             <div className="page_name">
                 Расписание занятий
             </div>
             <TabsComponent>
-                <TabList>
-                    <Tab key="monday">Понедельник</Tab>
-                    <Tab key="tuesday">Вторник</Tab>
-                    <Tab key="wednesday">Среда</Tab>
-                    <Tab key="thursday">Четверг</Tab>
-                    <Tab key="friday">Пятница</Tab>
-                    <Tab key="saturday">Суббота</Tab>
-                    <Tab key="sunday">Воскресенье</Tab>
-                </TabList>
+            {(window.innerWidth > 580) ?
+                    <TabList>
+                        <Tab key="monday">Понедельник</Tab>
+                        <Tab key="tuesday">Вторник</Tab>
+                        <Tab key="wednesday">Среда</Tab>
+                        <Tab key="thursday">Четверг</Tab>
+                        <Tab key="friday">Пятница</Tab>
+                        <Tab key="saturday">Суббота</Tab>
+                        <Tab key="sunday">Воскресенье</Tab>
+                    </TabList> :
+                    <div>Я</div>
+                    }
 
                 <TabPanel key="monday">
                     <table>

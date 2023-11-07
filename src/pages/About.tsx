@@ -5,7 +5,7 @@ interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
     return (
-        <div className='w-full' style = {{ width: '80%', margin: '0 auto', backgroundColor: 'white' }}>
+        <div className='page_content' >
             <div className="page_name">
                 О нас
             </div>

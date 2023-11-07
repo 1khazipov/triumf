@@ -9,7 +9,7 @@ interface FeedbackProps {}
 
 export const Feedback: React.FC<FeedbackProps> = ({ }) => {
     return (
-        <div>
+        <div className="page_content">
             <div className="page_name">
                 Отзывы
             </div>
