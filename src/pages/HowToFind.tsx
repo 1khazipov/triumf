@@ -25,69 +25,38 @@ export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
             </div>
 
             <div className="swiper_and_info">
-                {/*<div className="swipers">*/}
-                    <div className="swiper_div">
-                        <Swiper
-                            // install Swiper modules
-                            modules={[Navigation, Pagination]}
-                            navigation={{ nextEl: ".swiper-button-next",
-                                prevEl: ".swiper-button-prev",}}
-                            pagination={{ clickable: true}}
-                            loop={true}
-                            onSlideChange={() => console.log('slide change')}
-                            slidesPerView={1}
+                <Swiper
+                    // install Swiper modules
+                    modules={[Navigation, Pagination]}
+                    navigation={{ nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",}}
+                    pagination={{ clickable: true}}
+                    loop={true}
+                    onSlideChange={() => console.log('slide change')}
+                    slidesPerView={1}
+                    style={{ width: 450}}
 
-                        >
-                            <div className="swiper-button-prev"></div>
-                            <div className="swiper-button-next"></div>
-
-
-                            <SwiperSlide>
-                                <img className="location_image" src={image1} />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img className="location_image" src={image2} />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img className="location_image" src={image3} />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img className="location_image" src={image4} />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img className="location_image" src={image5} />
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
-
-                    {/*<div className="swiper_gallery">*/}
-                    {/*    <Swiper*/}
-                    {/*        // install Swiper modules*/}
-                    {/*        modules={[Navigation, Pagination]}*/}
-                    {/*        onSwiper={(swiper: typeof Swiper) => console.log(swiper)}*/}
-                    {/*        slidesPerView={4}*/}
-
-                    {/*    >*/}
+                >
+                    <div className="swiper-button-prev"></div>
+                    <div className="swiper-button-next"></div>
 
 
-                    {/*        <SwiperSlide>*/}
-                    {/*            <img className="gallery_image" src={image1} />*/}
-                    {/*        </SwiperSlide>*/}
-                    {/*        <SwiperSlide>*/}
-                    {/*            <img className="gallery_image" src={image2} />*/}
-                    {/*        </SwiperSlide>*/}
-                    {/*        <SwiperSlide>*/}
-                    {/*            <img className="gallery_image" src={image3} />*/}
-                    {/*        </SwiperSlide>*/}
-                    {/*        <SwiperSlide>*/}
-                    {/*            <img className="gallery_image" src={image4} />*/}
-                    {/*        </SwiperSlide>*/}
-                    {/*        <SwiperSlide>*/}
-                    {/*            <img className="gallery_image" src={image5} />*/}
-                    {/*        </SwiperSlide>*/}
-                    {/*    </Swiper>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
+                    <SwiperSlide>
+                        <img className="location_image" src={image1} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className="location_image" src={image2} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className="location_image" src={image3} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className="location_image" src={image4} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className="location_image" src={image5} />
+                    </SwiperSlide>
+                </Swiper>
 
                 <div className="info_location">
                     <div className="title_info_location">

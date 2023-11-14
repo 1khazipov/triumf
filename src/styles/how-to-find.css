@@ -1,8 +1,6 @@
-
-
 .swiper_and_info {
     display: flex;
-    flex-direction: row;
+    /*flex-flow: row nowrap;*/
     margin-top: 40px;
     margin-left: 20%;
 }
@@ -20,11 +18,11 @@
     width: 110px;
 }
 
-.swiper_div {
-    display: flex;
-    flex-flow: column;
-    width: 450px;
-}
+/*.swiper_div {*/
+/*    display: flex;*/
+/*    flex-flow: column;*/
+/*    width: 450px;*/
+/*}*/
 
 .title_info_location {
     color: gray;
