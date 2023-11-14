@@ -27,7 +27,7 @@ const YandexMap: React.FC<{}> = () => {
                         }}
                     />
                 </Map>
-            </YMaps>;
+            </YMaps>
         </div>
     )
 };

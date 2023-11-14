@@ -44,7 +44,7 @@
     color: #0E294B;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 920px) {
     .swiper_and_info {
         display: flex;
         flex-flow: column wrap;

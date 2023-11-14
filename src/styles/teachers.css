@@ -34,7 +34,8 @@
     display: table-caption;
     font-size: 2rem;
     font-family: "Hoefler Text", sans-serif;
-    margin-top: 6%;
+    margin-top: 6%;;
+    text-align-last: center;
 }
 
 
