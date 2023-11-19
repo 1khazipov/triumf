@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './components/Layout';
-import About from './pages/About';
-import Home from './pages/Home';
-import ExamPreparation from './pages/ExamPreparation';
-import Feedback from './pages/Feedback';
-import News from './pages/News';
-import HowToFind from './pages/HowToFind';
-import Teachers from './pages/Teachers';
-import Schedule from './pages/Schedule';
-import Students from './pages/Students';
-import StudentsByYear from "./pages/StudentsByYear";
+import Layout from './components/layot/Layout';
+import About from './pages/about/About';
+import Home from './pages/home/Home';
+import ExamPreparation from './pages/exam-preparation/ExamPreparation';
+import Feedback from './pages/feedback/Feedback';
+import News from './pages/news/News';
+import HowToFind from './pages/how-to-find/HowToFind';
+import Teachers from './pages/teachers/Teachers';
+import Schedule from './pages/schedule/Schedule';
+import Students from './pages/students/Students';
+import StudentsByYear from "./pages/students-by-year/StudentsByYear";
 import './styles/App.css';
 
 const App = () => {

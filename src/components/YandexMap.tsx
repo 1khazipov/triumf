@@ -16,7 +16,6 @@ const YandexMap: React.FC<{}> = () => {
                     modules={["control.ZoomControl", "control.FullscreenControl", 'geoObject.addon.balloon']}
                     width={'100%'}
                     height={360}
-                    // style={{ marginLeft: '20px'}}
                 >
                     <Placemark
                         defaultGeometry={[55.795580, 49.129815]}
