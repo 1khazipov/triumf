@@ -12,7 +12,7 @@ const Footer: React.FC<FooterProps> = () => {
         <footer style={{ position: 'relative' }}>
             <div className="footer-container" style={{ backgroundColor: '#0E294B', height: '220px', backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', flexFlow: 'row', justifyContent: 'space-around' }}>
                 <div className="footer-column" style={{ display: 'flex', flexFlow: 'column', paddingTop: 20, paddingLeft: 10, width: '160px'}}>
-                    <Link to="/">
+                    <Link to="/" style={{transform: 'translateY(15%) translateX(-7%)'}}>
                         <EmblemHeader />
                     </Link>
 

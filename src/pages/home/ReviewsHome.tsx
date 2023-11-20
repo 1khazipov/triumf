@@ -20,12 +20,11 @@ const ReviewsHome:React.FC = () => {
 
             <div className="reviews_home">
                 <Swiper
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation]}
                     navigation={{ nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",}}
-                    pagination={{ clickable: true }}
                     loop={true}
-                    style={{ marginTop: 20, width: '100%', height: '35%', display: 'flex', justifyContent: "center", alignItems: 'center', marginBottom: 90}}
+                    style={{ marginTop: 20, width: '100%', height: '40%', display: 'flex', justifyContent: "center", alignItems: 'center', marginBottom: 90}}
                     slidesPerView={2}
                     breakpoints={{
                         100: {slidesPerView: 1},
