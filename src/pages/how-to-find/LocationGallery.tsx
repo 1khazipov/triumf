@@ -1,5 +1,5 @@
 import {Swiper,  SwiperSlide} from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination, Keyboard} from 'swiper/modules';
 import image1 from "../../static/location/image1.jpg";
 import image2 from "../../static/location/image2.jpg";
 import image3 from "../../static/location/image3.jpg";
@@ -10,9 +10,10 @@ import React from "react";
 const LocationGallery:React.FC = () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Keyboard]}
             navigation={{ nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",}}
+            keyboard={{ enabled: true }}
             pagination={{ clickable: true}}
             loop={true}
             slidesPerView={1}

@@ -1,7 +1,7 @@
 import {studentsMap} from "../../constants/studentsList";
 import React from "react";
 import {Swiper,  SwiperSlide} from 'swiper/react';
-import {Autoplay, Navigation, Pagination} from 'swiper/modules';
+import {Autoplay, Navigation, Pagination, Keyboard} from 'swiper/modules';
 
 interface StudentsSwiperProps {
     studentYear: string;
@@ -9,9 +9,10 @@ interface StudentsSwiperProps {
 const StudentsSwiper:React.FC<StudentsSwiperProps> = ({studentYear}) => {
     return (
         <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
+            modules={[Navigation, Pagination, Autoplay, Keyboard]}
             navigation={{ nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",}}
+            keyboard={{ enabled: true }}
             pagination={{ clickable: true }}
             loop={true}
             style={{ marginTop: 80}}

@@ -1,5 +1,5 @@
 import {Swiper,  SwiperSlide} from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination, Keyboard} from 'swiper/modules';
 import {reviews} from "../../constants/reviewsList";
 import React from "react";
 
@@ -8,9 +8,10 @@ interface SwiperProps {
 const ReviewsSwiper:React.FC<SwiperProps> = () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Keyboard]}
             navigation={{ nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",}}
+            keyboard={{ enabled: true }}
             pagination={{ clickable: true }}
             loop={true}
             style={{ marginTop: 80, display: "flex", alignItems: "center", justifyContent: "center"}}

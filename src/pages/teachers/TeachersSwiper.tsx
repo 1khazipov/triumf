@@ -1,14 +1,15 @@
 import {Swiper,  SwiperSlide} from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import {Keyboard, Navigation, Pagination} from 'swiper/modules';
 import {teachers} from "../../constants/teachersList";
 import React from "react";
 
 const TeachersSwiper:React.FC = () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Keyboard]}
             navigation={{ nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",}}
+            keyboard={{enabled: true}}
             pagination={{ clickable: true }}
             loop={true}
             style={{ marginTop: 80}}

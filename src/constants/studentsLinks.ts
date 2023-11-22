@@ -49,7 +49,7 @@ export const studentsLinks = [ {
         title: 'Выпускники 2014 года',
     },
     {
-        link: "/students/2013",
+        link: "/students/2012-2013",
         image: students2013_all,
         title: 'Выпускники 2012-2013 годов',
     },
