@@ -102,7 +102,7 @@
   display: none;
 
   &:checked + label {
-    background-color: #dedede;
+    //background-color: #dedede;
   }
   &:disabled + label {
     opacity: 0.6;

@@ -9,29 +9,34 @@
 .react-tabs__tab:focus:after { content: ""; position: absolute; height: 5px; left: -4px; right: -4px; bottom: -5px; background: #fff; }
 
 table {
-    border-spacing: 20vw 0;
+    border-spacing: 14vw 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     margin-bottom: 40px;
 }
+
 tr { box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.99); }
-td {padding-top: 7px;}
+td {padding-top: 10px;}
+
+td br {
+    display: none;
+}
 
 .schedule__time {
     font-weight: bolder;
 }
 
-.tabSelect {
-    width: 80%;
-    height: 50px;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: "Avenir Next", serif;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
+/*.tabSelect {*/
+/*    width: 80%;*/
+/*    height: 50px;*/
+/*    font-size: 1.5rem;*/
+/*    text-align: center;*/
+/*    font-family: "Avenir Next", serif;*/
+/*    font-weight: bolder;*/
+/*    margin-bottom: 20px;*/
+/*}*/
 
 .select_schedule {
     display: none;
@@ -41,12 +46,24 @@ td {padding-top: 7px;}
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 900px){
     .select_schedule {
         display: initial;
     }
     .react-tabs__tab-list {
         display: none;
+    }
+    td .aud {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    td .class {
+        display: initial;
+    }
+    td {
+        font-size: 1.2rem;
     }
 }
 

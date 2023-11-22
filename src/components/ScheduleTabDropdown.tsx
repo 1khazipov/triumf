@@ -10,7 +10,7 @@ interface ScheduleProps {}
 export const ScheduleTabDropdown: React.FC<ScheduleProps> = ({ }) => {
     const [value, setValue] = useState(0);
     const [open, setOpen] = useState("");
-    const week = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+    const week = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
 
     function handleSelectTitle(e: React.MouseEvent) {
         if (open == "") setOpen("active")
@@ -27,7 +27,6 @@ export const ScheduleTabDropdown: React.FC<ScheduleProps> = ({ }) => {
                     <Tab key="thursday" onClick={() => setValue(3)}>{week[3]}</Tab>
                     <Tab key="friday" onClick={() => setValue(4)}>{week[4]}</Tab>
                     <Tab key="saturday" onClick={() => setValue(5)}>{week[5]}</Tab>
-                    <Tab key="sunday" onClick={() => setValue(6)}>{week[6]}</Tab>
                 </TabList>
                 <div className="select_schedule">
                     <form>
@@ -57,7 +56,9 @@ export const ScheduleTabDropdown: React.FC<ScheduleProps> = ({ }) => {
                 <TabPanel key="monday">
                     <table>
                         <tbody>
-                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / информатика</td></tr>
+                        <tr><td className="schedule__time"> 15:00–16:30 </td><td> 11(3) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 16:00–17:30 </td><td> 8(1) /<br className="class" /> физика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 16:40–18:10 </td><td> 11(2) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
                         </tbody>
                     </table>
                 </TabPanel>
@@ -65,17 +66,53 @@ export const ScheduleTabDropdown: React.FC<ScheduleProps> = ({ }) => {
                 <TabPanel key="tuesday">
                     <table>
                         <tbody>
-                        <tr><td className="schedule__time"> 14:30–16:00 </td> <td> 9(1) / обществознание</td></tr>
-                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / русский язык</td></tr>
-                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) / обществознание</td></tr>
+                        <tr><td className="schedule__time"> 15:20–16:50 </td><td> 11(1) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 17:00–18:30 </td><td> 11(5) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 17:00–18:30 </td><td> 11(1) /<br className="class" /> информатика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 18:40–20:10 </td><td> 11(4) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 18:40–20:10 </td><td> 11(1) /<br className="class" /> обществознание <br className="aud" />/ 319 ауд.</td></tr>
                         </tbody>
                     </table>
                 </TabPanel>
-                <TabPanel key="wednesday">df</TabPanel>
-                <TabPanel key="thursday">df</TabPanel>
-                <TabPanel key="friday">df</TabPanel>
-                <TabPanel key="saturday">df</TabPanel>
-                <TabPanel key="sunday">df</TabPanel>
+                <TabPanel key="wednesday">
+                    <table>
+                        <tbody>
+                        <tr><td className="schedule__time"> 15:30–17:00 </td><td> 8(1) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 17:50–19:20 </td><td> 11(1) /<br className="class" /> история /<br className="aud" /> 319 ауд.</td></tr>
+                        </tbody>
+                    </table>
+                </TabPanel>
+                <TabPanel key="thursday">
+                    <table>
+                        <tbody>
+                        <tr><td className="schedule__time"> 15:00–16:30 </td><td> 11(3) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 15:30–17:00 </td><td> 9(1) /<br className="class" /> физика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 16:40–18:10 </td><td> 11(1) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 18:20–19:50 </td><td> 11(2) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        </tbody>
+                    </table>
+                </TabPanel>
+                <TabPanel key="friday">
+                    <table>
+                        <tbody>
+                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(5) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 16:10–17:40 </td><td> 11(1) /<br className="class" /> информатика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 17:50–19:20 </td><td> 11(4) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 17:50–19:20 </td><td> 11(1) /<br className="class" /> обществознание <br className="aud" /> / 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 19:30–21:00 </td><td> 11(1) /<br className="class" /> история /<br className="aud" /> 319 ауд.</td></tr>
+                        </tbody>
+                    </table>
+                </TabPanel>
+                <TabPanel key="saturday">
+                    <table>
+                        <tbody>
+                        <tr><td className="schedule__time"> 13:30–15:00 </td><td> 9(1) /<br className="class" /> математика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 15:10–16:40 </td><td> 9(1) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 15:10–16:40 </td><td> 9(2) /<br className="class" /> математика /<br className="aud" /> 319 ауд.</td></tr>
+                        <tr><td className="schedule__time"> 16:50–18:20 </td><td> 9(2) /<br className="class" /> русский язык /<br className="aud" /> 313 ауд.</td></tr>
+                        </tbody>
+                    </table>
+                </TabPanel>
 
             </TabsComponent>
         </div>
