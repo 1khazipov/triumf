@@ -10,7 +10,38 @@ import students2013_all from "../static/students/2013/students2013_all.webp";
 import students2023_all from "../static/students/2023/students2023_all.jpg";
 import students2022_all from "../static/students/2022/students2022_all.jpg";
 
+import post1 from "../static/news/post1.webp"
+
 export const news = [
+    {
+        id: 1,
+        link: "post/1",
+        image: post1,
+        date: ' 28 авг. 2022 г.',
+        title: 'ЕГЭ 2022 - результаты',
+        brief: "Русский язык сдавали 40 учеников. Наивысший балл - 100!!! Средний балл - 80.  Результат 94 балла и более показали 12 человек!..."
+    },
+    // {
+    //     link: "",
+    //     image: ,
+    //     date: ' 202 г.',
+    //     title: '',
+    //     brief: ""
+    // },
+    // {
+    //     link: "",
+    //     image: ,
+    //     date: ' 202 г.',
+    //     title: '',
+    //     brief: ""
+    // },
+    // {
+    //     link: "",
+    //     image: ,
+    //     date: ' 202 г.',
+    //     title: '',
+    //     brief: ""
+    // },
     {
         link: "/students/2023",
         image: students2023_all,

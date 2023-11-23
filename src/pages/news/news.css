@@ -57,6 +57,28 @@
     font-family: "Avenir Next", serif;
 }
 
+.pagination {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.page-item {
+    list-style-type: none;
+    padding-left: 20%;
+    font-size: 1.3rem;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #0E294B;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 10px;
+}
+
 @media screen and (max-width: 900px) {
     .news_div {
         flex-flow: wrap;
@@ -67,5 +89,10 @@
     }
     .news_info {
         width: 100%;
+    }
+    .page-item {
+        list-style-type: none;
+        padding-left: 10%;
+        font-size: 1.1rem;
     }
 }
