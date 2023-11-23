@@ -1,6 +1,7 @@
 import React from 'react';
 import "./exam-preparation.css"
-import {materials} from "../../constants/materialsList";
+import pdf_icon from "../../static/examPreparation/pdf_icon.webp"
+import doc_icon from "../../static/examPreparation/doc_icon.webp"
 
 interface ExamPreparationProps {}
 
@@ -33,17 +34,116 @@ export const ExamPreparation: React.FC<ExamPreparationProps> = () => {
                 </div>
 
                 <div className="study_books">
-                    {materials.map((materialContent) => (
-                        <div className="study_book">
-                            <div className="book_name">
-                                {materialContent.name}
-                            </div>
-                            <div className="icon_and_link">
-                                <img className="book_image" src={materialContent.icon} alt="pdf" />
-                                <a className="book_link" href={materialContent.link} download>Скачать</a>
-                            </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Материалы конференции "Национальный язык и культура в условиях глобализации"
                         </div>
-                    ))}
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/nac_yazyk_2019.pdf")} download="nac_yazyk_2019.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Русский язык: Учебное пособие
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Russkiy_yazyk_Uchebnoe_posobie.pdf")} download="Russkiy_yazyk_Uchebnoe_posobie.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Русский язык: Cборник вариантов ЕГЭ
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Russkiy_yazyk_sbornik.pdf")} download="Russkiy_yazyk_sbornik.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Русский язык и культура речи: Теория
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Russkiy_yazyk_i_kultura_rechi_Teoria.pdf")} download="Russkiy_yazyk_i_kultura_rechi_Teoria.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Русский язык и культура речи: Практикум
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Russkiy_yazyk_i_kultura_rechi_Praktika.pdf")} download="Russkiy_yazyk_i_kultura_rechi_Praktika.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Дифференциальное исчисление функций нескольких переменных
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Diff_ischislenie_funkciy_neskolkih.pdf")} download="Diff_ischislenie_funkciy_neskolkih.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Интегральное исчисление функций одной переменной. Практикум. Часть I
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Diff_ischislenie_funkciy_odnoi_chast_1.pdf")} download="Diff_ischislenie_funkciy_odnoi_chast_1.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Интегральное исчисление функций одной переменной. Практикум. Часть II
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={pdf_icon} alt="pdf" />
+                            <a className="book_link" href={require("../../static/examPreparation/Diff_ischislenie_funkciy_odnoi_chast_2.pdf")} download="Diff_ischislenie_funkciy_odnoi_chast_2.pdf">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Практический курс к учебнику "Русский язык"(Фахрутдинова М.Т). Часть I
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={doc_icon} alt="doc" />
+                            <a className="book_link" href={require("../../static/examPreparation/Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_1_ch.zip")} download="Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_1_ch.zip">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Практический курс к учебнику "Русский язык"(Фахрутдинова М.Т). Часть II
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={doc_icon} alt="doc" />
+                            <a className="book_link" href={require("../../static/examPreparation/Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_2_ch.zip")} download="Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_2_ch.zip">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Практический курс к учебнику "Русский язык"(Фахрутдинова М.Т). Часть III-I
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={doc_icon} alt="doc" />
+                            <a className="book_link" href={require("../../static/examPreparation/Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_3_ch.zip")} download="Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_3_ch.zip">Скачать</a>
+                        </div>
+                    </div>
+                    <div className="study_book">
+                        <div className="book_name">
+                            Практический курс к учебнику "Русский язык"(Фахрутдинова М.Т). Часть III-II
+                        </div>
+                        <div className="icon_and_link">
+                            <img className="book_image" src={doc_icon} alt="doc" />
+                            <a className="book_link" href={require("../../static/examPreparation/Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_4_ch.zip")} download="Prakticheskiy_kurs_k_uchebniku_quot_Russkiy_yazyk_quot_4_ch.zip">Скачать</a>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>
