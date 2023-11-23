@@ -7,8 +7,21 @@ import students2016_all from "../static/students/2016/students2016_all.webp";
 import students2015_all from "../static/students/2015/students2015_all.webp";
 import students2014_all from "../static/students/2014/students2014_all.webp";
 import students2013_all from "../static/students/2013/students2013_all.webp";
+import students2023_all from "../static/students/2023/students2023_all.jpg";
+import students2022_all from "../static/students/2022/students2022_all.jpg";
 
-export const studentsLinks = [ {
+export const studentsLinks = [
+    {
+        link: "/students/2023",
+        image: students2023_all,
+        title: 'Выпускники 2023 года',
+    },
+    {
+        link: "/students/2022",
+        image: students2022_all,
+        title: 'Выпускники 2022 года',
+    },
+    {
     link: "/students/2021",
     image: students2021_all,
     title: 'Выпускники 2021 года',

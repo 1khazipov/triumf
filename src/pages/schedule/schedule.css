@@ -17,7 +17,7 @@ table {
     margin-bottom: 40px;
 }
 
-tr { box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.99); }
+tr { box-shadow: 0 1px 0 0 rgba(0,0,0,0.99); }
 td {padding-top: 10px;}
 
 td br {
@@ -27,16 +27,6 @@ td br {
 .schedule__time {
     font-weight: bolder;
 }
-
-/*.tabSelect {*/
-/*    width: 80%;*/
-/*    height: 50px;*/
-/*    font-size: 1.5rem;*/
-/*    text-align: center;*/
-/*    font-family: "Avenir Next", serif;*/
-/*    font-weight: bolder;*/
-/*    margin-bottom: 20px;*/
-/*}*/
 
 .select_schedule {
     display: none;

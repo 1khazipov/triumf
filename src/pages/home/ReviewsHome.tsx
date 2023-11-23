@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Swiper,  SwiperSlide} from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation} from 'swiper/modules';
 import {homeReviews} from "../../constants/homeMaterials";
 
 const ReviewsHome:React.FC = () => {
@@ -40,7 +40,7 @@ const ReviewsHome:React.FC = () => {
                             <div className="review_home" >
                                 <div className="review_header" >
                                     <div style={{ width: 50, height: 50}}>
-                                        <img className="review_image" src={homeReviewContent.photo} />
+                                        <img className="review_image" src={homeReviewContent.photo} alt={homeReviewContent.name}/>
                                     </div>
                                     <div style={{marginLeft: 10}}>
                                         <div style={{ fontWeight: 600, marginBottom: 2, fontSize: '1.3rem'}}>

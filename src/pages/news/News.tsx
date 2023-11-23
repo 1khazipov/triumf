@@ -7,7 +7,7 @@ import {news} from "../../constants/newList";
 
 interface NewsProps {}
 
-export const News: React.FC<NewsProps> = ({ }) => {
+export const News: React.FC<NewsProps> = () => {
 
     return (
         <div>
@@ -19,7 +19,7 @@ export const News: React.FC<NewsProps> = ({ }) => {
                 {news.map((newsContent, index) => (
                 <Link key={index} to={newsContent.link} className="news_div">
                     <div className="news_photo_div">
-                        <img className="news_photo" src={newsContent.image}/>
+                        <img className="news_photo" src={newsContent.image} alt={newsContent.title}/>
                     </div>
                     <div className="news_info">
                         <div className="news_date">

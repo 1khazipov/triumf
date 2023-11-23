@@ -1,7 +1,6 @@
 .swiper_and_info {
     display: flex;
     margin-top: 40px;
-    /*margin-left: 20%;*/
 }
 
 .info_location {
@@ -37,7 +36,6 @@
     .swiper_and_info {
         display: flex;
         flex-flow: column wrap;
-        /*margin-left: 10px;*/
     }
 
     .info_location {

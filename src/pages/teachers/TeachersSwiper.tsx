@@ -32,7 +32,7 @@ const TeachersSwiper:React.FC = () => {
             {teachers.map((teacherContent, index) => (
                 <SwiperSlide key={index} style={{  flexFlow: "column", display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <div className="teacher_image_div">
-                        <img className="teacher_image" src={teacherContent.photo}/>
+                        <img className="teacher_image" src={teacherContent.photo} alt={teacherContent.name}/>
                     </div>
                     <div className="info_about_teacher">
                         <div className="teacher_name">

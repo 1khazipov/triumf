@@ -30,7 +30,6 @@ const HomeGallery:React.FC<HomeGalleryProps> = () => {
 
                     <div className="home_gallery_img_div" style={{
                         backgroundImage: `url(${homePhotoContent.image})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '700px', width: '100vw', minWidth: '100vw'}}>
-                        {/*<img className="home_gallery_img" src={homePhotoContent.image}/>*/}
                         <div className="home_gallery_title" >
                             {homePhotoContent.title}
                         </div>

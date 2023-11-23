@@ -36,7 +36,7 @@ const ReviewsSwiper:React.FC<SwiperProps> = () => {
                     <div className="review" >
                         <div className="review_header" >
                             <div style={{ width: 50, height: 50}}>
-                                <img className="review_image" src={reviewContent.photo} />
+                                <img className="review_image" src={reviewContent.photo} alt={reviewContent.name}/>
                             </div>
                             <div style={{marginLeft: 10}}>
                                 <div style={{ fontWeight: 600, marginBottom: 2, fontSize: '1.3rem'}}>

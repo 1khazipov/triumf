@@ -94,7 +94,7 @@
 .soc_network_img {
     height: 30px;
     width: 30px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .select_header {
@@ -105,13 +105,9 @@
     color: white;
     text-align: center;
     font-size: 1.9rem;
-    /*padding-right: 100px;*/
-    /*margin-left: 200px;*/
-    /*padding-left: 85%;*/
     padding-top: 5px;
     border: none;
     position: absolute;
-    /*right: 0;*/
     left: 0;
 }
 .select_header .__select {

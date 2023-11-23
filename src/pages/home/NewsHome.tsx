@@ -20,7 +20,7 @@ const NewsHome:React.FC = () => {
                 <div className="news_grid_home">
                     <Link to="/students/2021" className="news_div_home">
                         <div className="news_photo_div">
-                            <img className="news_photo" src={students2021_all}/>
+                            <img className="news_photo" src={students2021_all} alt="first new"/>
                         </div>
                         <div className="news_info">
                             <div className="news_date">
@@ -36,7 +36,7 @@ const NewsHome:React.FC = () => {
                     </Link>
                     <Link to="/students/2020" className="news_div_home">
                         <div className="news_photo_div">
-                            <img className="news_photo" src={students2020_all}/>
+                            <img className="news_photo" src={students2020_all} alt="second new"/>
                         </div>
                         <div className="news_info">
                             <div className="news_date">

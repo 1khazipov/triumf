@@ -7,8 +7,25 @@ import students2016_all from "../static/students/2016/students2016_all.webp";
 import students2015_all from "../static/students/2015/students2015_all.webp";
 import students2014_all from "../static/students/2014/students2014_all.webp";
 import students2013_all from "../static/students/2013/students2013_all.webp";
+import students2023_all from "../static/students/2023/students2023_all.jpg";
+import students2022_all from "../static/students/2022/students2022_all.jpg";
 
-export const news = [ {
+export const news = [
+    {
+        link: "/students/2023",
+        image: students2023_all,
+        date: '27 сент. 2023 г.',
+        title: 'Выпускники 2023 года',
+        brief: "Латыпова Алина - Казанский федеральный университет (лингвистика: перевод и переводоведение) Филиппов Альберт - Казанский государственный..."
+    },
+    {
+        link: "/students/2022",
+        image: students2022_all,
+        date: '9 авг. 2022 г.',
+        title: 'Выпускники 2022 года',
+        brief: "Хуснутдинова Лия - Казанский государственный медицинский университет (лечебное дело) Абрамова Анастасия - Российский национальный..."
+    },
+    {
         link: "/students/2021",
         image: students2021_all,
         date: '3 янв. 2022 г.',

@@ -37,7 +37,7 @@ const StudentsSwiper:React.FC<StudentsSwiperProps> = ({studentYear}) => {
                 special: string; study: string}, index: React.Key | null | undefined) => (
                 <SwiperSlide key={index} style={{  flexFlow: "column", display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <div className="student_image_div">
-                        <img className="student_image"src={studentContent.photo}/>
+                        <img className="student_image" src={studentContent.photo} alt={studentContent.name}/>
                     </div>
                     <div className="info_about_student">
                         <div className="student_name">

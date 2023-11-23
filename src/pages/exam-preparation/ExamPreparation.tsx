@@ -4,7 +4,7 @@ import {materials} from "../../constants/materialsList";
 
 interface ExamPreparationProps {}
 
-export const ExamPreparation: React.FC<ExamPreparationProps> = ({ }) => {
+export const ExamPreparation: React.FC<ExamPreparationProps> = () => {
     return (
         <div className="page_content">
             <div className="page_name">
@@ -39,7 +39,7 @@ export const ExamPreparation: React.FC<ExamPreparationProps> = ({ }) => {
                                 {materialContent.name}
                             </div>
                             <div className="icon_and_link">
-                                <img className="book_image" src={materialContent.icon} />
+                                <img className="book_image" src={materialContent.icon} alt="pdf" />
                                 <a className="book_link" href={materialContent.link} download>Скачать</a>
                             </div>
                         </div>

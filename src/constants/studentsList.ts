@@ -143,33 +143,33 @@ import student2018_14 from '../static/students/2018/student2018_14.jpeg'
 // import student2017_14 from '../static/students/2017/student2017_14.jpeg'
 // import student2017_15 from '../static/students/2017/student2017_15.jpeg'
 // import student2017_16 from '../static/students/2017/student2017_16.jpeg'
-//
-// import student2016_1 from '../static/students/2016/student2016_1.jpeg'
-// import student2016_2 from '../static/students/2016/student2016_2.jpeg'
-// import student2016_3 from '../static/students/2016/student2016_3.jpeg'
-// import student2016_4 from '../static/students/2016/student2016_4.jpeg'
-// import student2016_5 from '../static/students/2016/student2016_5.jpeg'
-// import student2016_6 from '../static/students/2016/student2016_6.jpeg'
-// import student2016_7 from '../static/students/2016/student2016_7.jpeg'
-// import student2016_8 from '../static/students/2016/student2016_8.jpeg'
-// import student2016_9 from '../static/students/2016/student2016_9.jpeg'
-// import student2016_10 from '../static/students/2016/student2016_10.jpeg'
-// import student2016_11 from '../static/students/2016/student2016_11.jpeg'
-// import student2016_12 from '../static/students/2016/student2016_12.jpeg'
-//
-// import student2015_1 from '../static/students/2015/student2015_1.jpeg'
-// import student2015_2 from '../static/students/2015/student2015_2.jpeg'
-// import student2015_3 from '../static/students/2015/student2015_3.jpeg'
-// import student2015_4 from '../static/students/2015/student2015_4.jpeg'
-// import student2015_5 from '../static/students/2015/student2015_5.jpeg'
-// import student2015_6 from '../static/students/2015/student2015_6.jpeg'
-// import student2015_7 from '../static/students/2015/student2015_7.jpeg'
-// import student2015_8 from '../static/students/2015/student2015_8.jpeg'
-// import student2015_9 from '../static/students/2015/student2015_9.jpeg'
-// import student2015_10 from '../static/students/2015/student2015_10.jpeg'
-// import student2015_11 from '../static/students/2015/student2015_11.jpeg'
-// import student2015_12 from '../static/students/2015/student2015_12.jpeg'
-// import student2015_13 from '../static/students/2015/student2015_13.jpeg'
+
+import student2016_1 from '../static/students/2016/students2016_1.jpeg'
+import student2016_2 from '../static/students/2016/students2016_2.jpeg'
+import student2016_3 from '../static/students/2016/students2016_3.jpeg'
+import student2016_4 from '../static/students/2016/students2016_4.jpeg'
+import student2016_5 from '../static/students/2016/students2016_5.jpeg'
+import student2016_6 from '../static/students/2016/students2016_6.jpeg'
+import student2016_7 from '../static/students/2016/students2016_7.jpeg'
+import student2016_8 from '../static/students/2016/students2016_8.jpeg'
+import student2016_9 from '../static/students/2016/students2016_9.jpeg'
+import student2016_10 from '../static/students/2016/students2016_10.jpeg'
+import student2016_11 from '../static/students/2016/students2016_11.jpeg'
+import student2016_12 from '../static/students/2016/students2016_12.jpeg'
+
+import student2015_1 from '../static/students/2015/students2015_1.jpeg'
+import student2015_2 from '../static/students/2015/students2015_2.jpeg'
+import student2015_3 from '../static/students/2015/students2015_3.jpeg'
+import student2015_4 from '../static/students/2015/students2015_4.jpeg'
+import student2015_5 from '../static/students/2015/students2015_5.jpeg'
+import student2015_6 from '../static/students/2015/students2015_6.jpeg'
+import student2015_7 from '../static/students/2015/students2015_7.jpeg'
+import student2015_8 from '../static/students/2015/students2015_8.jpeg'
+import student2015_9 from '../static/students/2015/students2015_9.jpeg'
+import student2015_10 from '../static/students/2015/students2015_10.jpeg'
+import student2015_11 from '../static/students/2015/students2015_11.jpeg'
+import student2015_12 from '../static/students/2015/students2015_12.jpeg'
+import student2015_13 from '../static/students/2015/students2015_13.jpeg'
 //
 // import student2014_1 from '../static/students/2014/student2014_1.jpeg'
 // import student2014_2 from '../static/students/2014/student2014_2.jpeg'
@@ -1100,162 +1100,162 @@ let students2018 = [
 //     },
 // ]
 //
-// let students2016 = [
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_1,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_2,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_3,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_4,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_5,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_6,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_7,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_8,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_9,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_10,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_11,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2016_12,
-//     },
-// ]
-//
-// let students2015 = [
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_1,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_2,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_3,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_4,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_5,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_6,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_7,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_8,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_9,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_10,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_11,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_12,
-//     },
-//     {
-//         name: '',
-//         study: '',
-//         special: '',
-//         photo: student2015_13,
-//     },
-// ]
-//
+let students2016 = [
+    {
+        name: 'Бердников Андрей',
+        study: 'Казанский федеральный университет',
+        special: 'информационные системы и технологии',
+        photo: student2016_1,
+    },
+    {
+        name: 'Котов Виталий',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'самолёто- и вертолетостроение',
+        photo: student2016_2,
+    },
+    {
+        name: 'Лаптев Даниил',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'самолёто- и вертолетостроение',
+        photo: student2016_3,
+    },
+    {
+        name: 'Ройзенблит Олеся',
+        study: 'Казанский национальный исследовательский технический университет ',
+        special: 'информационные системы и технологии',
+        photo: student2016_4,
+    },
+    {
+        name: 'Титов Роман',
+        study: 'Казанский медицинский колледж ',
+        special: 'стоматология',
+        photo: student2016_5,
+    },
+    {
+        name: 'Толкушкина Татьяна',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: '',
+        photo: student2016_6,
+    },
+    {
+        name: 'Хуснетдинова Камилла',
+        study: 'Казанский государственный архитектурно-строительный университет',
+        special: 'архитектурное проектирование',
+        photo: student2016_7,
+    },
+    {
+        name: 'Шайхутдинова Римма',
+        study: 'Казанский государственный архитектурно-строительный университет',
+        special: 'архитектурное проектирование',
+        photo: student2016_8,
+    },
+    {
+        name: 'Шакиров Рузаль',
+        study: 'Казанский национальный исследовательский технологический университет.',
+        special: '',
+        photo: student2016_9,
+    },
+    {
+        name: 'Грязнов Никита',
+        study: 'Санкт-Петербургский университет телекоммуникаций и систем связи имени Бонч-Бруевича (СПБ ГУТ).',
+        special: '',
+        photo: student2016_10,
+    },
+    {
+        name: 'Шакиров Раил',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: '',
+        photo: student2016_11,
+    },
+    {
+        name: 'Троицкая Катерина',
+        study: 'Казанский федеральный университет',
+        special: 'экономический факультет',
+        photo: student2016_12,
+    },
+]
+
+let students2015 = [
+    {
+        name: 'Копунов Михаил',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: '',
+        photo: student2015_1,
+    },
+    {
+        name: 'Аласгарли Сеймур',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: '',
+        photo: student2015_2,
+    },
+    {
+        name: 'Фейруза Газиева',
+        study: 'Казанский госудраственный медицинский университет',
+        special: '',
+        photo: student2015_3,
+    },
+    {
+        name: 'Мухаметдинова Диана',
+        study: 'Казанский федеральный университет',
+        special: '',
+        photo: student2015_4,
+    },
+    {
+        name: 'Аксагова Екатерина',
+        study: 'Фрайбургский университет им. Альберта и Людвига (Германия)',
+        special: '',
+        photo: student2015_5,
+    },
+    {
+        name: 'Васягин Глеб',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: '',
+        photo: student2015_6,
+    },
+    {
+        name: 'Сиразетдинова Алина',
+        study: 'Казанский федеральный университет',
+        special: '',
+        photo: student2015_7,
+    },
+    {
+        name: 'Васильевских Павел',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: '',
+        photo: student2015_8,
+    },
+    {
+        name: 'Белов Эдгар',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: '',
+        photo: student2015_9,
+    },
+    {
+        name: 'Биктагирова Камилла',
+        study: 'Институт экономики, управления и права',
+        special: '',
+        photo: student2015_10,
+    },
+    {
+        name: 'Сафонова Мария',
+        study: 'D\'ovebrooks college (Оксфорд, Англия)',
+        special: '',
+        photo: student2015_11,
+    },
+    {
+        name: 'Зильберштейн Дина',
+        study: 'Высшая школа экономики (Москва)',
+        special: '',
+        photo: student2015_12,
+    },
+    {
+        name: 'Ракипов Тимур',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: '',
+        photo: student2015_13,
+    },
+]
+
 // let students2014 = [
 //     {
 //         name: '',
@@ -1476,8 +1476,8 @@ studentsMap.set('2020', students2020)
 studentsMap.set('2019', students2019)
 studentsMap.set('2018', students2018)
 // studentsMap.set('2017', students2017)
-// studentsMap.set('2016', students2016)
-// studentsMap.set('2015', students2015)
+studentsMap.set('2016', students2016)
+studentsMap.set('2015', students2015)
 // studentsMap.set('2014', students2014)
 // studentsMap.set('2012-2013', students2013)
 

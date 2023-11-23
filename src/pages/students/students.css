@@ -24,6 +24,7 @@
     font-family: "Avenir Next", serif;
     font-size: 1.4rem;
     color: #0E294B;
+    flex-flow: wrap;
 }
 
 @media screen and (max-width: 300px) {
