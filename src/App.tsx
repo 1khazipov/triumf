@@ -12,6 +12,7 @@ import Schedule from './pages/schedule/Schedule';
 import Students from './pages/students/Students';
 import StudentsByYear from "./pages/students-by-year/StudentsByYear";
 import './styles/App.css';
+import Post from "./pages/post/Post";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/students" element={<Students />} />
           <Route path="/students/:studentYear" element={<StudentsByYear />} />
+          <Route path="/news/post/:postId" element={<Post />} />
         </Routes>
       </Layout>
     </BrowserRouter>
