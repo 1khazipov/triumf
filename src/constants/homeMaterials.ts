@@ -1,4 +1,3 @@
-import students2021_all from "../static/students/2021/students2021_all.webp";
 import students2019_all from "../static/students/2017/students2017_all.webp";
 import image3 from "../static/location/image3.jpg"
 import image1 from "../static/location/image1.jpg"

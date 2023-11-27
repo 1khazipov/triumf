@@ -6,7 +6,7 @@ import ReviewsSwiper from "./ReviewsSwiper";
 
 interface FeedbackProps {}
 
-export const Feedback: React.FC<FeedbackProps> = ({ }) => {
+export const Feedback: React.FC<FeedbackProps> = () => {
     return (
         <div className="page_content">
             <div className="page_name">

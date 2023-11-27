@@ -7,7 +7,7 @@ import LocationInfo from "./LocationInfo";
 
 interface HowToFindProps {}
 
-export const HowToFind: React.FC<HowToFindProps> = ({ }) => {
+export const HowToFind: React.FC<HowToFindProps> = () => {
     return (
         <div className="page_content">
             <div className="page_name">

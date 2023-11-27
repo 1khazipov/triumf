@@ -8,7 +8,7 @@ import StudentsSwiper from "./StudentsSwiper";
 
 interface StudentsByYearProps {}
 
-export const StudentsByYear: React.FC<StudentsByYearProps> = ({ }) => {
+export const StudentsByYear: React.FC<StudentsByYearProps> = () => {
     let { studentYear } = useParams();
     if (studentYear === undefined) studentYear = '2021';
     return (

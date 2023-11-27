@@ -20,11 +20,11 @@ const Header: React.FC<HeaderProps> = () => {
     const [open, setOpen] = useState("");
     const [hidden, setHidden] = useState(true);
     function handleSelectTitle(e: React.MouseEvent) {
-        if (open == "") {
+        if (open === "") {
             setOpen("active");
             setHidden(false);
         }
-        if (open == "active") {
+        if (open === "active") {
             setHidden(true);
             setOpen("")
         }

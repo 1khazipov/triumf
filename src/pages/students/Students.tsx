@@ -8,7 +8,7 @@ import {studentsLinks} from "../../constants/studentsLinks"
 
 interface StudentsProps {}
 
-export const Students: React.FC<StudentsProps> = ({}) => {
+export const Students: React.FC<StudentsProps> = () => {
     return (
         <div style={{ marginLeft: '10%', marginRight: '10%'}}>
             <div className="page_name">

@@ -7,7 +7,7 @@ import ScheduleTabDropdown from "../../components/ScheduleTabDropdown";
 
 interface ScheduleProps {}
 
-export const Schedule: React.FC<ScheduleProps> = ({ }) => {
+export const Schedule: React.FC<ScheduleProps> = () => {
     return (
         <div >
             <div className="page_name">

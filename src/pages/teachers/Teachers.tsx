@@ -13,8 +13,6 @@ import TeachersSwiper from "./TeachersSwiper";
 interface TeachersProps {}
 
 export const Teachers: React.FC<TeachersProps> = () => {
-    const [currentTeacher, setCurrentTeacher] = useState(teachers[1]);
-
     return (
         <div>
             <div className="page_name">
