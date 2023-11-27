@@ -8,6 +8,7 @@ import "./post.css"
 interface PostProps {}
 
 export const Post: React.FC<PostProps> = () => {
+    window.scrollTo(0, 0)
     let { postId } = useParams();
     if (postId === undefined) postId = '1';
     const post = postsContent[+postId - 1];
@@ -38,10 +39,10 @@ export const Post: React.FC<PostProps> = () => {
                     keyboard={{ enabled: true }}
                     pagination={{ clickable: true }}
                     loop={true}
-                    style={{ marginTop: 80}}
+                    style={{ height: '30%', width: '70%'}}
                     slidesPerView={1}
                     autoplay={{
-                        delay: 1200,
+                        delay: 1800,
                         disableOnInteraction: false
                     }}
 
@@ -50,7 +51,7 @@ export const Post: React.FC<PostProps> = () => {
                     <div className="swiper-button-next"></div>
                     {post.images.map((image, index) => (
                         <SwiperSlide key={index} style={{  flexFlow: "column", display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                            <img src={image} alt={post.title}/>
+                            <img src={image} alt={post.title} style={{width: '90%', height: '100%'}}/>
                         </SwiperSlide>
                     ))}
                 </Swiper>}

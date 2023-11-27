@@ -49,8 +49,8 @@ const News:React.FC<NewsProps> = ({itemsPerPage}) => {
             </div>
             <nav aria-label="Page navigation comments" className="mt-4">
                 <ReactPaginate
-                    previousLabel="previous"
-                    nextLabel="next"
+                    previousLabel="предыдущий"
+                    nextLabel="следующий"
                     breakLabel="..."
                     breakClassName="page-item"
                     breakLinkClassName="page-link"

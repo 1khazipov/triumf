@@ -19,11 +19,14 @@
 }
 
 .news_brief:hover {
-    color: #0E294B
+    color: #16227f
 }
 
 .news_photo_div {
     width: 50%;
+}
+.news_div:hover .news_title{
+    color: blue;
 }
 
 .news_photo {
@@ -36,6 +39,7 @@
     padding-top: 30px;
     font-family: "Avenir Next", serif;
 }
+
 
 .news_date {
     color: gray;
