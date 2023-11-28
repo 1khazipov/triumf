@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import "./students.css"
 
 import {studentsLinks} from "../../constants/studentsLinks"
+import Helmet from "react-helmet";
 
 
 interface StudentsProps {}
@@ -11,6 +12,9 @@ interface StudentsProps {}
 export const Students: React.FC<StudentsProps> = () => {
     return (
         <div style={{ marginLeft: '10%', marginRight: '10%'}}>
+            <Helmet
+                title="Наши ученики"
+            />
             <div className="page_name">
                 Наши ученики
             </div>
