@@ -1,4 +1,4 @@
-import students2019_all from "../static/students/2017/students2017_all.webp";
+import students2019_all from "../static/students2023_all.jpg";
 import image3 from "../static/location/image3.jpg"
 import image1 from "../static/location/image1.jpg"
 import girl from "../static/reviews/girl.webp";
