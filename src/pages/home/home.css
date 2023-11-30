@@ -65,9 +65,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 700px;
+    object-fit: cover;
 }
-
 .home_gallery_title {
     font-family: "Avenir Next", sans-serif;
     position: absolute;
