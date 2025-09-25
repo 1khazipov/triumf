@@ -1,16 +1,28 @@
-import students2021_all from "../static/students/2021/students2021_all.webp";
-import students2020_all from "../static/students/2020/students2020_all.webp";
-import students2019_all from "../static/students/2019/students2019_all.webp";
-import students2018_all from "../static/students/2018/students2018_all.webp";
-import students2017_all from "../static/students/2017/students2017_all.webp";
-import students2016_all from "../static/students/2016/students2016_all.webp";
-import students2015_all from "../static/students/2015/students2015_all.webp";
-import students2014_all from "../static/students/2014/students2014_all.webp";
 import students2013_all from "../static/students/2013/students2013_all.webp";
-import students2023_all from "../static/students/2023/students2023_all.jpg";
+import students2014_all from "../static/students/2014/students2014_all.webp";
+import students2015_all from "../static/students/2015/students2015_all.webp";
+import students2016_all from "../static/students/2016/students2016_all.webp";
+import students2017_all from "../static/students/2017/students2017_all.webp";
+import students2018_all from "../static/students/2018/students2018_all.webp";
+import students2019_all from "../static/students/2019/students2019_all.webp";
+import students2020_all from "../static/students/2020/students2020_all.webp";
+import students2021_all from "../static/students/2021/students2021_all.webp";
 import students2022_all from "../static/students/2022/students2022_all.jpg";
+import students2023_all from "../static/students/2023/students2023_all.jpg";
+import students2024_all from "../static/students/2024/students2024_all.jpg";
+import students2025_all from "../static/students/2025/students2025_all.jpg";
 
 export const studentsLinks = [
+    {
+        link: "/students/2025",
+        image: students2025_all,
+        title: 'Выпускники 2025 года',
+    },
+    {
+        link: "/students/2024",
+        image: students2024_all,
+        title: 'Выпускники 2024 года',
+    },
     {
         link: "/students/2023",
         image: students2023_all,

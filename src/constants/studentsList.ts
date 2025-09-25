@@ -1,3 +1,54 @@
+import student2025_1 from '../static/students/2025/student2025_1.jpg'
+import student2025_2 from '../static/students/2025/student2025_2.jpg'
+import student2025_3 from '../static/students/2025/student2025_3.jpg'
+import student2025_4 from '../static/students/2025/student2025_4.jpg'
+import student2025_5 from '../static/students/2025/student2025_5.jpg'
+import student2025_6 from '../static/students/2025/student2025_6.jpg'
+import student2025_7 from '../static/students/2025/student2025_7.jpg'
+import student2025_8 from '../static/students/2025/student2025_8.jpg'
+import student2025_9 from '../static/students/2025/student2025_9.jpg'
+import student2025_10 from '../static/students/2025/student2025_10.jpg'
+import student2025_11 from '../static/students/2025/student2025_11.jpg'
+import student2025_12 from '../static/students/2025/student2025_12.jpg'
+import student2025_13 from '../static/students/2025/student2025_13.jpg'
+import student2025_14 from '../static/students/2025/student2025_14.jpg'
+import student2025_15 from '../static/students/2025/student2025_15.jpg'
+import student2025_16 from '../static/students/2025/student2025_16.jpg'
+import student2025_17 from '../static/students/2025/student2025_17.jpg'
+import student2025_18 from '../static/students/2025/student2025_18.jpg'
+import student2025_19 from '../static/students/2025/student2025_19.jpg'
+import student2025_20 from '../static/students/2025/student2025_20.jpg'
+
+import student2024_1 from '../static/students/2024/student2024_1.jpg'
+import student2024_2 from '../static/students/2024/student2024_2.jpg'
+import student2024_3 from '../static/students/2024/student2024_3.jpg'
+import student2024_4 from '../static/students/2024/student2024_4.jpg'
+import student2024_5 from '../static/students/2024/student2024_5.jpg'
+import student2024_6 from '../static/students/2024/student2024_6.jpg'
+import student2024_7 from '../static/students/2024/student2024_7.jpg'
+import student2024_8 from '../static/students/2024/student2024_8.jpg'
+import student2024_9 from '../static/students/2024/student2024_9.jpg'
+import student2024_10 from '../static/students/2024/student2024_10.jpg'
+import student2024_11 from '../static/students/2024/student2024_11.jpg'
+import student2024_12 from '../static/students/2024/student2024_12.jpg'
+import student2024_13 from '../static/students/2024/student2024_13.jpg'
+import student2024_14 from '../static/students/2024/student2024_14.jpg'
+import student2024_15 from '../static/students/2024/student2024_15.jpg'
+import student2024_16 from '../static/students/2024/student2024_16.jpg'
+import student2024_17 from '../static/students/2024/student2024_17.jpg'
+import student2024_18 from '../static/students/2024/student2024_18.jpg'
+import student2024_19 from '../static/students/2024/student2024_19.jpg'
+import student2024_20 from '../static/students/2024/student2024_20.jpg'
+import student2024_21 from '../static/students/2024/student2024_21.jpg'
+import student2024_22 from '../static/students/2024/student2024_22.jpg'
+import student2024_23 from '../static/students/2024/student2024_23.jpg'
+import student2024_24 from '../static/students/2024/student2024_24.jpg'
+import student2024_25 from '../static/students/2024/student2024_25.jpg'
+import student2024_26 from '../static/students/2024/student2024_26.jpg'
+import student2024_27 from '../static/students/2024/student2024_27.jpg'
+import student2024_28 from '../static/students/2024/student2024_28.jpg'
+import student2024_29 from '../static/students/2024/student2024_29.jpg'
+
 import student2023_1 from '../static/students/2023/student2023_1.jpeg'
 import student2023_2 from '../static/students/2023/student2023_2.jpeg'
 import student2023_3 from '../static/students/2023/student2023_3.jpeg'
@@ -207,7 +258,311 @@ import student2015_13 from '../static/students/2015/students2015_13.jpeg'
 // import student2013_20 from '../static/students/2013/student2013_20.jpeg'
 // import student2013_21 from '../static/students/2013/student2013_21.jpeg'
 
+let students2025 = [
+    {
+        name: 'Юсупова Алсу',
+        study: 'Казанский федеральный университет',
+        special: 'менеджмент: управление бизнесом',
+        photo: student2025_1,
+    },
+    {
+        name: 'Муртазин Карим',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'техническая эксплуатация транспортного оборудования',
+        photo: student2025_2,
+    },
+    {
+        name: 'Хубатхузина Карина',
+        study: 'Казанский федеральный университет ',
+        special: 'физика живых систем',
+        photo: student2025_3,
+    },
+    {
+        name: 'Мингалеев Муса',
+        study: 'Казанский федеральный университет',
+        special: 'судебная и прокурорская деятельность',
+        photo: student2025_4,
+    },
+    {
+        name: 'Мерзакаев Ранель',
+        study: 'Чувашский государственный университет им. В.И. Ульянова',
+        special: 'лечебное дело',
+        photo: student2025_5,
+    },
+    {
+        name: 'Шафигуллина Камиля',
+        study: 'Университет Иннополис',
+        special: 'математические основы искусственного интеллекта',
+        photo: student2025_6,
+    },
+    {
+        name: 'Угаров Игорь',
+        study: 'Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации',
+        special: 'управление международными проектами и программами. Китай',
+        photo: student2025_7,
+    },
+    {
+        name: 'Ким Варвара',
+        study: 'Казанский федеральный университет',
+        special: 'прикладная информатика',
+        photo: student2025_8,
+    },
+    {
+        name: 'Воропаев Егор',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'инноватика',
+        photo: student2025_9,
+    },
+    {
+        name: 'Асхадуллин Радмир',
+        study: 'Казанский федеральный университет',
+        special: 'инноватика',
+        photo: student2025_10,
+    },
+    {
+        name: 'Костылев Алексей',
+        study: 'Казанский государственный энергетический университет',
+        special: 'электроника и наноэлектроника',
+        photo: student2025_11,
+    },
+    {
+        name: 'Мухаметгареева Зарина',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: 'менеджмент',
+        photo: student2025_12,
+    },
+    {
+        name: 'Гараева Камилла',
+        study: 'Казанский государственный архитектурно-строительный университет',
+        special: 'графический дизайн',
+        photo: student2025_13,
+    },
+    {
+        name: 'Гурьев Тимур',
+        study: 'Московский авиационный институт',
+        special: 'прикладная математика и информатика',
+        photo: student2025_14,
+    },
+    {
+        name: 'Никитин Эдуард',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: 'математическое обеспечение и администрирование информационных систем',
+        photo: student2025_15,
+    },
+    {
+        name: 'Гатауллина Таира',
+        study: 'Казанский государственный медицинский университет',
+        special: 'стоматология',
+        photo: student2025_16,
+    },
+    {
+        name: 'Хадиева Элина',
+        study: 'Университет METU, Турция',
+        special: 'гражданское строительство',
+        photo: student2025_17,
+    },
+    {
+        name: 'Валиева Дина',
+        study: 'Казанский федеральный университет',
+        special: 'стоматология',
+        photo: student2025_18,
+    },
+    {
+        name: 'Князева Амелия',
+        study: 'Ульяновский государственный университет',
+        special: 'педиатрия',
+        photo: student2025_19,
+    },
+    {
+        name: 'Мясагутова Айзиля',
+        study: 'Российский государственный университет правосудия',
+        special: 'юриспруденция',
+        photo: student2025_20,
+    },
+]
 
+let students2024 = [
+    {
+        name: 'Ильдуганов Даниил',
+        study: 'Российская академия народного хозяйства и государственной службы при Президенте РФ',
+        special: 'международные отношения: политика, экономика и бизнес',
+        photo: student2024_1,
+    },
+    {
+        name: 'Евдокимов Леонид',
+        study: 'Санкт-Петербургский политехнический университет Петра Великого',
+        special: 'прикладная механика',
+        photo: student2024_2,
+    },
+    {
+        name: 'Монетова Дарья',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: 'материаловедение и технологии материалов',
+        photo: student2024_3,
+    },
+    {
+        name: 'Ермолаев Никита',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: 'материаловедение и технологии материалов',
+        photo: student2024_4,
+    },
+    {
+        name: 'Валиева Сафия',
+        study: 'Казанский государственный медицинский университет',
+        special: 'педиатрия',
+        photo: student2024_5,
+    },
+    {
+        name: 'Иванов Даниил',
+        study: 'Московский государственный институт международных отношений при МИД РФ',
+        special: 'мировая экономика, управление инновациями и международный бизнес',
+        photo: student2024_6,
+    },
+    {
+        name: 'Шайхутдинова Соня',
+        study: 'Российский университет дружбы народов им.Патриса Лумумбы',
+        special: 'лингвистика; теория и методика преподавания иностранных языков',
+        photo: student2024_7,
+    },
+    {
+        name: 'Пушин Иван',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'самолёто- и вертолётостроение',
+        photo: student2024_8,
+    },
+    {
+        name: 'Сафронова Елизавета',
+        study: 'Казанский инновационный университет им.Тимирясова',
+        special: 'экономика организаций и бизнес-аналитика',
+        photo: student2024_9,
+    },
+    {
+        name: 'Рахимов Эльмир',
+        study: 'Казанский государственный архитектурно-строительный университет',
+        special: 'промышленное и гражданское строительство',
+        photo: student2024_10,
+    },
+    {
+        name: 'Пыркова Амира',
+        study: 'Российский экономический Университет им.Г.В.Плеханова',
+        special: 'экономика',
+        photo: student2024_11,
+    },
+    {
+        name: 'Клементьева Александра',
+        study: 'Российский Университет Медицины (Московский государственный медико-стоматологический университет им. А.И. Евдокимова)',
+        special: 'лечебный факультет',
+        photo: student2024_12,
+    },
+    {
+        name: 'Клементьева Елизавета',
+        study: 'Российский государственный художественно-промышленный университет им.С. Г. Строганова ',
+        special: 'дизайн мебели',
+        photo: student2024_13,
+    },
+    {
+        name: 'Клементьев Лёва',
+        study: 'Московский государственный технический университет им. Н. Э. Баумана',
+        special: 'робототехника и комплексная автоматизация',
+        photo: student2024_13,
+    },
+    {
+        name: 'Гузаиров Тимур',
+        study: 'Национальный исследовательский университет «Высшая школа экономики»',
+        special: 'прикладная математика и информатика',
+        photo: student2024_14,
+    },
+    {
+        name: 'Феоктистова Валерия',
+        study: 'Казанский государственный архитектурно-строительный университет',
+        special: 'архитектурное проектирование',
+        photo: student2024_15,
+    },
+    {
+        name: 'Баязитова Камилла',
+        study: 'Московская государственная консерватория им. П.И. Чайковского',
+        special: 'музыковедение',
+        photo: student2024_16,
+    },
+    {
+        name: 'Гарнаева Полина',
+        study: 'Казанский федеральный университет',
+        special: 'менеджмент',
+        photo: student2024_17,
+    },
+    {
+        name: 'Белоусов Иван',
+        study: 'Казанский национальный исследовательский технологический университет',
+        special: 'химическая технология',
+        photo: student2024_18,
+    },
+    {
+        name: 'Катаев Эмиль',
+        study: 'Казанский федеральный университет',
+        special: 'безопасность телекоммуникационных систем',
+        photo: student2024_19,
+    },
+    {
+        name: 'Рахматуллина Наиля',
+        study: 'Казанский федеральный университет',
+        special: 'менеджмент',
+        photo: student2024_20,
+    },
+    {
+        name: 'Биккинин Александр',
+        study: 'Казанский государственный архитектурно -строительный университет',
+        special: 'промышленное и гражданское строительство',
+        photo: student2024_21,
+    },
+    {
+        name: 'Илья Жугар',
+        study: 'Казанский национальный исследовательский технический университет',
+        special: 'инфокоммуникационные технологии и системы связи',
+        photo: student2024_22,
+    },
+    {
+        name: 'Хусаинов Равиль',
+        study: 'Казанский федеральный университет',
+        special: 'менеджмент',
+        photo: student2024_23,
+    },
+    {
+        name: 'Бобкова Натали',
+        study: 'Казанский федеральный университет',
+        special: 'медиа коммуникации',
+        photo: student2024_24,
+    },
+    {
+        name: 'Нурутдинова Диляра',
+        study: 'Российский национальный исследовательский медицинский университет имени Н. И. Пирогова',
+        special: 'лечебное дело',
+        photo: student2024_25,
+    },
+    {
+        name: 'Ярхамов Радель',
+        study: 'Высшая школа экономики',
+        special: 'управление бизнесом',
+        photo: student2024_26,
+    },
+    {
+        name: 'Валиев Булат',
+        study: 'Российский экономический университет имени Г. В. Плеханова',
+        special: 'информатика и вычислительная техника',
+        photo: student2024_27,
+    },
+    {
+        name: 'Гайнутдинов Рамат',
+        study: 'Московский политехнический университет',
+        special: 'информационные системы и технологии',
+        photo: student2024_28,
+    },
+    {
+        name: 'Муравьев Богдан',
+        study: 'Казанский федеральный университет',
+        special: 'государственное и муниципальное управление',
+        photo: student2024_29,
+    },
+]
 
 let students2023 = [
     {
@@ -1469,6 +1824,8 @@ let students2015 = [
 
 export const studentsMap= new Map();
 
+studentsMap.set('2025', students2025)
+studentsMap.set('2024', students2024)
 studentsMap.set('2023', students2023)
 studentsMap.set('2022', students2022)
 studentsMap.set('2021', students2021)
