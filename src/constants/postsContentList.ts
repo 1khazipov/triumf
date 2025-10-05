@@ -14,11 +14,14 @@ import post9 from "../static/news/post9.webp"
 import post10 from "../static/news/post10.webp"
 import post11 from "../static/news/post11.webp"
 import post8 from "../static/news/post8.webp"
+import post12 from "../static/news/post12.webp"
 import post10_1 from "../static/posts/post10_1.webp"
 import post10_2 from "../static/posts/post10_2.webp"
 import post10_3 from "../static/posts/post10_3.webp"
 import post10_4 from "../static/posts/post10_4.webp"
 import post10_5 from "../static/posts/post10_5.webp"
+import post12_1 from "../static/posts/post12_1.webp"
+import post12_2 from "../static/posts/post12_2.webp"
 
 
 
@@ -161,6 +164,12 @@ export const postsContent = [
             "Математику сдавали 2 человека. Их результаты 74 и 66 баллов.\n" +
             "Историю сдавали 2 человека. Их результаты 60 и 58 баллов.",
         images: [post11],
+    },
+    {
+        id: 12,
+        title: 'Новый филиал в Лаишево!\n',
+        content: "",
+        images: [post12, post12_1, post12_2],
     },
 
 

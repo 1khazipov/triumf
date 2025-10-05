@@ -21,6 +21,7 @@ import post8 from "../static/news/post8.webp"
 import post9 from "../static/news/post9.webp"
 import post10 from "../static/news/post10.webp"
 import post11 from "../static/news/post11.webp"
+import post12 from "../static/news/post12.webp"
 export const news = [
     // {
     //     link: "/students/2023",
@@ -36,6 +37,14 @@ export const news = [
     //     title: 'Выпускники 2022 года',
     //     brief: "Хуснутдинова Лия - Казанский государственный медицинский университет (лечебное дело) Абрамова Анастасия - Российский национальный..."
     // },
+    {
+        id: 12,
+        link: "post/12",
+        image: post12,
+        date: ' 1 сен. 2025 г.',
+        title: 'Новый филиал в Лаишево!',
+        brief: ""
+    },
     {
         id: 11,
         link: "post/11",
