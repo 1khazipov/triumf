@@ -1,9 +1,10 @@
-import React, { Suspense, lazy } from 'react'; 
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import Layout from './components/layot/Layout';
+import Home from './pages/home/Home'; 
 import './styles/App.css';
 
-const Home = lazy(() => import('./pages/home/Home'));
 const About = lazy(() => import('./pages/about/About'));
 const ExamPreparation = lazy(() => import('./pages/exam-preparation/ExamPreparation'));
 const Feedback = lazy(() => import('./pages/feedback/Feedback'));
@@ -16,8 +17,8 @@ const StudentsByYear = lazy(() => import("./pages/students-by-year/StudentsByYea
 const Post = lazy(() => import("./pages/post/Post"));
 
 const Loader = () => (
-  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-    Загрузка...
+  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+    Загрузка страницы...
   </div>
 );
 
@@ -28,12 +29,15 @@ const App = () => {
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Home />} />
+
             <Route path="/about" element={<About />} />
+            <Route path="/exam-preparation" element={<ExamPreparation />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/news" element={<News itemsPerPage={10} />} />
             <Route path="/how-to-find" element={<HowToFind />} />
             <Route path="/teachers" element={<Teachers />} />
             <Route path="/schedule" element={<Schedule />} />
+            <Route path="/students" element={<Students />} />
             <Route path="/students/:studentYear" element={<StudentsByYear />} />
             <Route path="/news/post/:postId" element={<Post />} />
           </Routes>
